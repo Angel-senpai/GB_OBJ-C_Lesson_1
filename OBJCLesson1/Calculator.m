@@ -8,6 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
+float sum(float a,float b){
+    return a + b;
+}
+
+float subtract(float a,float b){
+    return a - b;
+}
+
+float divide(float a,float b){
+    return a / b;
+}
+
+float multiply(float a,float b){
+    return a * b;
+}
+
+
 void lessonCalculator(){
     //Переменные инициализированны заранее во избежании непредвиденных результатов работы программы
     float first = 0;
@@ -27,16 +44,16 @@ void lessonCalculator(){
     
     switch (didCase) {
         case '+':
-            printf("First value - %f, Second value - %f, Result: %f %c %f = %f", first, second, first, didCase,second , first + second);
+            printf("Result: %f %c %f = %f", first, didCase,second , sum(first,second));
             break;
         case '-':
-            printf("First value - %f, Second value - %f, Result: %f %c %f = %f", first, second, first, didCase,second , first - second);
+            printf("Result: %f %c %f = %f", first, didCase,second , subtract(first, second));
             break;
         case '*':
-            printf("First value - %f, Second value - %f, Result: %f %c %f = %f", first, second, first, didCase,second , first * second);
+            printf("Result: %f %c %f = %f", first, didCase,second , multiply(first, second));
             break;
         case '/':
-            printf("First value - %f, Second value - %f, Result: %f %c %f = %f", first, second, first, didCase,second , first / second);
+            printf("Result: %f %c %f = %f", first, didCase,second , divide(first, second));
             break;
         default:
             //При ошибочном вводе выводится ошибка
@@ -45,3 +62,4 @@ void lessonCalculator(){
     }
     printf("\n");
 }
+
