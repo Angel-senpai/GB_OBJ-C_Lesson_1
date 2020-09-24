@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694A8093251B4BC6001019B6 /* ArrayPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A8092251B4BC6001019B6 /* ArrayPrinter.m */; };
 		69F6CFF2250F8156008BDB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF1250F8156008BDB3D /* main.m */; };
 		69F6CFF9250F8931008BDB3D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF8250F8931008BDB3D /* Calculator.m */; };
 		69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFFA250F8A58008BDB3D /* MidNumber.m */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		694A8092251B4BC6001019B6 /* ArrayPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayPrinter.m; sourceTree = "<group>"; };
 		69F6CFEE250F8156008BDB3D /* OBJCLesson1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OBJCLesson1; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F6CFF1250F8156008BDB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69F6CFF8250F8931008BDB3D /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				69F6CFF8250F8931008BDB3D /* Calculator.m */,
 				69F6CFFA250F8A58008BDB3D /* MidNumber.m */,
 				69F6D000251396EA008BDB3D /* EngLetter.m */,
+				694A8092251B4BC6001019B6 /* ArrayPrinter.m */,
 			);
 			path = OBJCLesson1;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				69F6D001251396EA008BDB3D /* EngLetter.m in Sources */,
 				69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */,
+				694A8093251B4BC6001019B6 /* ArrayPrinter.m in Sources */,
 				69F6CFF2250F8156008BDB3D /* main.m in Sources */,
 				69F6CFF9250F8931008BDB3D /* Calculator.m in Sources */,
 			);
