@@ -10,6 +10,7 @@
 		69F6CFF2250F8156008BDB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF1250F8156008BDB3D /* main.m */; };
 		69F6CFF9250F8931008BDB3D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF8250F8931008BDB3D /* Calculator.m */; };
 		69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFFA250F8A58008BDB3D /* MidNumber.m */; };
+		69F6D001251396EA008BDB3D /* EngLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6D000251396EA008BDB3D /* EngLetter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		69F6CFF1250F8156008BDB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69F6CFF8250F8931008BDB3D /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		69F6CFFA250F8A58008BDB3D /* MidNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidNumber.m; sourceTree = "<group>"; };
+		69F6D000251396EA008BDB3D /* EngLetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngLetter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				69F6CFF1250F8156008BDB3D /* main.m */,
 				69F6CFF8250F8931008BDB3D /* Calculator.m */,
 				69F6CFFA250F8A58008BDB3D /* MidNumber.m */,
+				69F6D000251396EA008BDB3D /* EngLetter.m */,
 			);
 			path = OBJCLesson1;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F6D001251396EA008BDB3D /* EngLetter.m in Sources */,
 				69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */,
 				69F6CFF2250F8156008BDB3D /* main.m in Sources */,
 				69F6CFF9250F8931008BDB3D /* Calculator.m in Sources */,
