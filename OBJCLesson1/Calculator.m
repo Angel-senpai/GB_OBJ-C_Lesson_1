@@ -24,12 +24,19 @@ float multiply(float a,float b){
     return a * b;
 }
 
+typedef enum Calculate{
+    Sum,
+    Subtract,
+    Divide,
+    Multiply,
+} Calculate;
+
 
 void lessonCalculator(){
     //Переменные инициализированны заранее во избежании непредвиденных результатов работы программы
     float first = 0;
     float second = 0;
-    char didCase = '&';
+    Calculate didCase = Sum;
     
     
     //Ввод чисел с плавующей точкой пример : 10.5 , 200.67
@@ -39,25 +46,25 @@ void lessonCalculator(){
     scanf("%f",&second);
     
     //Ввод знаков принимается одним символом +,-,*,/
-    printf("did char (+,-,*,/): ");
-    scanf("%s",&didCase);
+    printf("\n1. Sum\n2. Subtract\n3. Divide\n4. Multiply\nWrite number: ");
+    scanf("%ud",&didCase);
     
-    switch (didCase) {
-        case '+':
-            printf("Result: %f %c %f = %f", first, didCase,second , sum(first,second));
+    switch (didCase - 1) {
+        case Sum:
+            printf("Result: %f + %f = %f", first, second , sum(first,second));
             break;
-        case '-':
-            printf("Result: %f %c %f = %f", first, didCase,second , subtract(first, second));
+        case Subtract:
+            printf("Result: %f - %f = %f", first, second , subtract(first, second));
             break;
-        case '*':
-            printf("Result: %f %c %f = %f", first, didCase,second , multiply(first, second));
+        case Divide:
+            printf("Result: %f / %f = %f", first, second , divide(first, second));
             break;
-        case '/':
-            printf("Result: %f %c %f = %f", first, didCase,second , divide(first, second));
+        case Multiply:
+            printf("Result: %f * %f = %f", first, second , multiply(first, second));
             break;
         default:
             //При ошибочном вводе выводится ошибка
-            printf("Error char");
+            printf("Error");
             break;
     }
     printf("\n");

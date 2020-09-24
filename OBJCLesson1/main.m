@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     int temp = 0;
-    printf("Select program task:\n1. Calculator\n2. Found mid number\n3. Is eng letter ?\nWrite number: ");
+    printf("Select program task:\n1. Calculator\n2. Found mid number\n3. Is eng letter ?\n4. Array Printer\nWrite number: ");
     scanf("%d",&temp);
     switch (temp) {
         case 1:
@@ -21,6 +21,12 @@ int main(int argc, const char * argv[]) {
             break;
         case 3:
             isEngLetter();
+            break;
+        case 4:
+            arrayPrinter();
+            break;
+        case 5:
+            structPrinter();
             break;
         default:
             printf("Erorr write number\n");
