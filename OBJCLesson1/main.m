@@ -7,30 +7,40 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Student.h"
+#import "Parent.h"
+#import "Child.h"
+void printValue(Parent *parentObj);
+void printStudentList(void);
+
 
 int main(int argc, const char * argv[]) {
-    int temp = 0;
-    printf("Select program task:\n1. Calculator\n2. Found mid number\n3. Is eng letter ?\n4. Array Printer\nWrite number: ");
-    scanf("%d",&temp);
-    switch (temp) {
-        case 1:
-            lessonCalculator();
-            break;
-        case 2:
-            lessonMidNumber();
-            break;
-        case 3:
-            isEngLetter();
-            break;
-        case 4:
-            arrayPrinter();
-            break;
-        case 5:
-            structPrinter();
-            break;
-        default:
-            printf("Erorr write number\n");
-            break;
-    }
+    Parent *parent = [[Parent alloc] init];
+    parent.value = @"isParent";
+    
+    Child *child = [[Child alloc] init];
+    child.value = @"isChild";
+    
+    printStudentList();
+    
+    
+    printValue(parent);
+    printValue(child);
     return 0;
+}
+
+void printStudentList(){
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    for (int i = 0; i < 10; i++) {
+        [array addObject:[[Student alloc] initWithName: [[NSString alloc] initWithFormat:@"Student name number %d",i + 1]
+                                               Surname: [[NSString alloc] initWithFormat:@"Student surname number %d",i + 1]
+                                             BirthDate:[[NSDate alloc] init]]];
+        NSLog(@"%@",[array[i] name]);
+    }
+    
+    NSLog(@"%@",array);
+    
+}
+void printValue(Parent *parentObj){
+    [parentObj printValue];
 }

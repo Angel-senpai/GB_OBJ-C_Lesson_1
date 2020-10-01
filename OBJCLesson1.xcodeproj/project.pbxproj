@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		694A8093251B4BC6001019B6 /* ArrayPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A8092251B4BC6001019B6 /* ArrayPrinter.m */; };
+		69B58A51252602CC00724FFC /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B58A4D252602CC00724FFC /* Child.m */; };
+		69B58A52252602CC00724FFC /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B58A4E252602CC00724FFC /* Parent.m */; };
+		69B58A53252602CC00724FFC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B58A50252602CC00724FFC /* Student.m */; };
 		69F6CFF2250F8156008BDB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF1250F8156008BDB3D /* main.m */; };
 		69F6CFF9250F8931008BDB3D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFF8250F8931008BDB3D /* Calculator.m */; };
 		69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6CFFA250F8A58008BDB3D /* MidNumber.m */; };
@@ -28,6 +31,12 @@
 
 /* Begin PBXFileReference section */
 		694A8092251B4BC6001019B6 /* ArrayPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayPrinter.m; sourceTree = "<group>"; };
+		69B58A4B252602CC00724FFC /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		69B58A4C252602CC00724FFC /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		69B58A4D252602CC00724FFC /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		69B58A4E252602CC00724FFC /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		69B58A4F252602CC00724FFC /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		69B58A50252602CC00724FFC /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		69F6CFEE250F8156008BDB3D /* OBJCLesson1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OBJCLesson1; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F6CFF1250F8156008BDB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69F6CFF8250F8931008BDB3D /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
@@ -65,6 +74,12 @@
 		69F6CFF0250F8156008BDB3D /* OBJCLesson1 */ = {
 			isa = PBXGroup;
 			children = (
+				69B58A4F252602CC00724FFC /* Child.h */,
+				69B58A4D252602CC00724FFC /* Child.m */,
+				69B58A4B252602CC00724FFC /* Parent.h */,
+				69B58A4E252602CC00724FFC /* Parent.m */,
+				69B58A4C252602CC00724FFC /* Student.h */,
+				69B58A50252602CC00724FFC /* Student.m */,
 				69F6CFF1250F8156008BDB3D /* main.m */,
 				69F6CFF8250F8931008BDB3D /* Calculator.m */,
 				69F6CFFA250F8A58008BDB3D /* MidNumber.m */,
@@ -131,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B58A52252602CC00724FFC /* Parent.m in Sources */,
+				69B58A51252602CC00724FFC /* Child.m in Sources */,
 				69F6D001251396EA008BDB3D /* EngLetter.m in Sources */,
+				69B58A53252602CC00724FFC /* Student.m in Sources */,
 				69F6CFFB250F8A58008BDB3D /* MidNumber.m in Sources */,
 				694A8093251B4BC6001019B6 /* ArrayPrinter.m in Sources */,
 				69F6CFF2250F8156008BDB3D /* main.m in Sources */,
